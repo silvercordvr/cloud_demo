@@ -129,7 +129,7 @@ Here's a detailed description of the test request for obtaining a text response 
 - `User-ID`: `12345`
 
 **Body**: (raw binary data, representing the WAV file)
-- Example file: [link_to_file](../test_files/xtts_v2_sample_Aaron_Dreschner.wav)
+- Example file: [link_to_file](../test_files/xtts_v2_sample_Aaron%20Dreschner.wav)
 
 #### 3.2. Expected Response
 
