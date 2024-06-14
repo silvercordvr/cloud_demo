@@ -1,0 +1,22 @@
+{
+  "name": "demo_server",
+  "version": "1.0.0",
+  "description": "Hello world",
+  "main": "server.js",
+  "scripts": {
+    "start-python-photo": "python python/photo_request_analizer.py",
+    "start-python-tts": "python python/tts_server.py",
+    "start-python-stt": "python python/stt_server.py",
+    "start-python-app": "python python/gpu_server.py",
+    "start-node": "node server.js",
+    "start": "node start.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
