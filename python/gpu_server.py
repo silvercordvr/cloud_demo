@@ -46,6 +46,10 @@ def handle_post():
     return {'received_data': data}, 200       
 
 # STT
+UPLOAD_FOLDER = os.path.join(os.path.dirname(__file__), 'uploaded_wav_files')
+if not os.path.exists(UPLOAD_FOLDER):
+    os.makedirs(UPLOAD_FOLDER)
+    
 @app.route('/upload-wav', methods=['POST'])
 @requires_auth
 def upload_wav_bytes():
