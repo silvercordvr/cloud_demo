@@ -45,6 +45,8 @@ The final deliverable should include the following functionalities:
 
 ### System Startup
 
+Before starting the Node.js server, you need to install the necessary modules. Run the `npm install` command in the console in the project directory (at the same level as the `package.json` file).
+
 The project's startup script is `start.js`, and `npm start` command launches the Node.js server and all Python servers.
 
 To start the text generation, TTS, and SST services, create a batch (`.bat`) or bash (`.sh`) script based on your operating system. Include the command to run `start.js`.
